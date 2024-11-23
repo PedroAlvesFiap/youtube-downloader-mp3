@@ -1,7 +1,7 @@
 import os
 from tkinter import Tk, Label, Entry, Button, filedialog, messagebox, ttk
 from threading import Thread
-from downloader import download_audio
+from app.downloader import download_audio
 
 
 class YouTubeDownloaderApp:
